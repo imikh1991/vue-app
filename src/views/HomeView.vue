@@ -4,6 +4,7 @@ import ContainerCards from '@/components/ContainerCards.vue';
 </script>
 
 <template>
+  
   <main>
     <h1>Home</h1>
     <ContainerCards />
