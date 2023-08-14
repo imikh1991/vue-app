@@ -6,8 +6,7 @@
     "baseUrl": ".",
     "allowJs": true,
     "types": [
-      "node",
-      "webpack-env"
+      "node"
       ],
     "typeRoots": ["./node_modules/@types", "./src/types"],
     "paths": {

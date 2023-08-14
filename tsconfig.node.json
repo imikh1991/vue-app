@@ -12,7 +12,7 @@
     "module": "ESNext",
     "typeRoots": ["./node_modules/@types", "./src/types"],
     "moduleResolution": "Bundler",
-    "types": ["node", "webpack-env"]
+    "types": ["node"]
   },
   "files": ["src/shims-vue.d.ts"]
 }
