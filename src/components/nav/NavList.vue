@@ -17,12 +17,12 @@ import RouteList from '../../base/enum/routeList'
 
 .nav {
   position: absolute;
-  margin: 5px 0 0 auto;
+  margin: 15px 0 0 auto;
   display: flex;
   gap: 20px;
   font-size: 16px;
   top: 30px;
-  right: 0px;
+  right: 20px;
 
   &__link,
   &__link:active {

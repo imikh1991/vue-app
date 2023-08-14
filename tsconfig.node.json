@@ -10,9 +10,9 @@
   "compilerOptions": {
     "composite": true,
     "module": "ESNext",
-    
     "typeRoots": ["./node_modules/@types", "./src/types"],
     "moduleResolution": "Bundler",
     "types": ["node", "webpack-env"]
-  }
+  },
+  "files": ["src/shims-vue.d.ts"]
 }

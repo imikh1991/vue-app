@@ -1,6 +1,6 @@
 {
   "name": "vue-1crm",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "vite",
@@ -13,6 +13,8 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "axios": "^1.4.0",
+    "core-js": "^3.32.0",
     "lodash": "^4.17.21",
     "vue": "^3.2.36",
     "vue-router": "^4.2.4"
