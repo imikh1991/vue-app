@@ -1,5 +1,4 @@
 <script setup lang="ts">
-
 import NavList from './components/nav/NavList.vue'
 </script>
 <template>

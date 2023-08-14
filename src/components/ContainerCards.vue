@@ -1,5 +1,4 @@
 <template>
-  <p>Card Container</p>
   <div class="cards-container">
     <SingleCard
       v-for="hero in data.heroes"

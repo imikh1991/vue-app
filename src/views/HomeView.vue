@@ -5,7 +5,6 @@ import ContainerCards from '@/components/ContainerCards.vue'
 
 <template>
   <main>
-    <h1>Home</h1>
     <ContainerCards />
   </main>
 </template>
