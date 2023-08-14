@@ -1,20 +1,18 @@
 <script setup lang="ts">
 // import { RouterLink, RouterView } from 'vue-router'
 import NavList from './components/nav/NavList.vue'
-
 </script>
 <template>
   <header>
     <div class="wrapper">
-     <NavList />
+      <NavList />
     </div>
   </header>
   <RouterView />
 </template>
 
 <style scoped lang="scss">
-@import "./style/abstracts/variables";
-
+@import './style/abstracts/variables';
 
 .header {
   display: flex;
@@ -23,7 +21,6 @@ import NavList from './components/nav/NavList.vue'
   padding: 30px 0px;
   font-size: 50px;
   line-height: normal;
-
 
   &__name {
     width: 347px;
@@ -46,6 +43,5 @@ import NavList from './components/nav/NavList.vue'
     font-size: 22px;
     gap: 10px;
   }
-
 }
 </style>

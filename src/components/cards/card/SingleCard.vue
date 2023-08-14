@@ -1,29 +1,25 @@
 <template>
-    <div class="card" data-testid="card">
-      <div
-      class="card__img"
-      > <img :src="props.image" alt="Card Image">
-      </div>
-      <div class="card__id">{{ props.id }}</div>
-      <div class="card__title">{{ props.title }}</div>
-      <div class="card__description">{{ props.description }}</div>
-      <a href="#">Go somewhere</a>
-    </div>
-  </template>
-  
-  <script setup lang="ts">
-  
-  const props = defineProps({
-    id: Number,
-    image: String,
-    title: String,
-    description: String
-  });
-  </script>
-  
-  <style scoped lang="scss">
-  @import "../../../style/abstracts/variables";
-  @import "../../../style/vars/shadows.scss";
+  <div class="card" data-testid="card">
+    <div class="card__img"><img :src="props.image" alt="Card Image" /></div>
+    <div class="card__id">{{ props.id }}</div>
+    <div class="card__title">{{ props.title }}</div>
+    <div class="card__description">{{ props.description }}</div>
+    <a href="#">Go somewhere</a>
+  </div>
+</template>
+
+<script setup lang="ts">
+const props = defineProps({
+  id: Number,
+  image: String,
+  title: String,
+  description: String
+})
+</script>
+
+<style scoped lang="scss">
+@import '../../../style/abstracts/variables';
+@import '../../../style/vars/shadows.scss';
 .card {
   width: 670px;
   min-height: 400px;
@@ -33,7 +29,7 @@
   position: relative;
   padding: 25px;
   margin: 20px;
-  transition: .2s;
+  transition: 0.2s;
   background-color: $color-bg;
   display: flex;
   flex-direction: column;
@@ -61,7 +57,6 @@
     width: 200px;
     height: 200px;
   }
-
 }
 
 .title {
@@ -73,7 +68,6 @@
   @media (max-width: 760px) {
     font-size: 32px;
   }
-
 }
 
 .status {
@@ -84,7 +78,5 @@
   @media (max-width: 760px) {
     margin-bottom: 40px;
   }
-
 }
 </style>
-

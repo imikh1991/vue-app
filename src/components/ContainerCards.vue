@@ -1,16 +1,21 @@
 <template>
-    <p>Card Container</p>
-    <div class="cards-container">
-      <SingleCard v-for="hero in data.heroes" :key="hero.id" :image="hero.image" :title="hero.title" :description="hero.description" />
-    </div>
-  </template>
-  
-  <script setup lang="ts">
-  import SingleCard from '../components/cards/card/SingleCard.vue';
+  <p>Card Container</p>
+  <div class="cards-container">
+    <SingleCard
+      v-for="hero in data.heroes"
+      :key="hero.id"
+      :image="hero.image"
+      :title="hero.title"
+      :description="hero.description"
+    />
+  </div>
+</template>
 
-  import data from '../data/heroes.json';
-  
-  </script>
+<script setup lang="ts">
+import SingleCard from '../components/cards/card/SingleCard.vue'
+
+import data from '../data/heroes.json'
+</script>
 
 <style scoped>
 .cards-container {
@@ -21,4 +26,3 @@
   justify-content: center;
 }
 </style>
-  

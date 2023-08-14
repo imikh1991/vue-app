@@ -4,6 +4,12 @@
   "exclude": ["src/**/__tests__/*"],
   "compilerOptions": {
     "baseUrl": ".",
+    "allowJs": true,
+    "types": [
+      "node",
+      "webpack-env"
+      ],
+    "typeRoots": ["./node_modules/@types", "./src/types"],
     "paths": {
       "@/*": ["./src/*"]
     }

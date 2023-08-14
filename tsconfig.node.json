@@ -10,7 +10,9 @@
   "compilerOptions": {
     "composite": true,
     "module": "ESNext",
+    
+    "typeRoots": ["./node_modules/@types", "./src/types"],
     "moduleResolution": "Bundler",
-    "types": ["node"]
+    "types": ["node", "webpack-env"]
   }
 }
